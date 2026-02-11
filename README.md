@@ -1,2 +1,159 @@
-# notebooklm-mcp-guide
-📚 دليل شامل لربط NotebookLM بـ MCP | Comprehensive guide for connecting NotebookLM to MCP via AntiGravity/Claude Desktop - By ePreneurs
+# 📚 NotebookLM + MCP Guide | دليل ربط NotebookLM بـ MCP
+
+<div align="center">
+
+**🧠 NotebookLM = العقل | ⚡ AntiGravity = الجسم | 🔗 MCP = الرابط**
+
+*حوّل NotebookLM من مجرد أداة بحث إلى نظام أتمتة متكامل*
+
+[![ePreneurs](https://img.shields.io/badge/By-ePreneurs-blue?style=for-the-badge)](https://youtube.com/@ePreneurs)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![NotebookLM](https://img.shields.io/badge/NotebookLM-MCP-red?style=for-the-badge)](https://notebooklm.google.com)
+
+</div>
+
+---
+
+## 🤔 إيه الموضوع ده؟
+
+دليل شامل بالعربي يشرح لك إزاي تربط **NotebookLM** من Google بـ **AntiGravity/Claude Desktop** عن طريق **MCP (Model Context Protocol)** — وده بيحول NotebookLM من أداة بحث عادية لـ **نظام أتمتة خارق**.
+
+### إيه اللي هتقدر تعمله؟
+
+| الأداة | بمفردها | مع MCP |
+|--------|---------|--------|
+| 🧠 NotebookLM | باحث ذكي في مكتبة | نظام بحث + إنشاء محتوى + أتمتة |
+| ⚡ AntiGravity | بنّاء قوي بدون مخططات | بنّاء بمخططات وبيانات جاهزة |
+| 🔗 معاً | — | **موظف AI يبحث ويصنع ويبني 24/7** |
+
+### القدرات المتاحة:
+- 🎧 Audio Overviews (بودكاست تلقائي)
+- 🎬 Video Overviews (فيديوهات شرح)
+- 📊 Infographics (إنفوجرافيك)
+- 📑 Slide Decks (عروض تقديمية)
+- 📝 Reports (تقارير)
+- 🗺️ Mind Maps (خرائط ذهنية)
+- 🎴 Flashcards (بطاقات مراجعة)
+- ❓ Quizzes (اختبارات)
+- 📋 Data Tables (جداول بيانات)
+- 🔍 Deep Research (بحث عميق من 40+ مصدر)
+
+---
+
+## 🚀 البداية السريعة (3 خطوات)
+
+### 1️⃣ حمّل AntiGravity
+حمّل التطبيق من [الموقع الرسمي](https://www.google.com/search?q=google+antigravity+download)
+
+### 2️⃣ ثبّت NotebookLM MCP
+انسخ إعدادات MCP من [`templates/mcp-config-template.json`](templates/mcp-config-template.json) وضعها في إعدادات AntiGravity
+
+### 3️⃣ سجّل الدخول
+افتح المتصفح وسجّل دخولك في NotebookLM للمصادقة
+
+📖 **[الدليل الكامل خطوة بخطوة ←](docs/05-installation-guide.md)**
+
+---
+
+## 📂 هيكل المشروع
+
+```
+notebooklm-mcp-guide/
+│
+├── 📄 README.md                          # أنت هنا! 👋
+│
+├── 📁 docs/                              # المستندات التفصيلية
+│   ├── 01-introduction.md               # مقدمة عن المشروع
+│   ├── 02-notebooklm-overview.md        # نبذة عن NotebookLM
+│   ├── 03-mcp-overview.md               # نبذة عن MCP
+│   ├── 04-agentic-overview.md           # نبذة عن AntiGravity
+│   ├── 05-installation-guide.md         # دليل التثبيت
+│   ├── 06-troubleshooting.md            # حل المشاكل
+│   └── 07-faq.md                        # الأسئلة الشائعة
+│
+├── 📁 use-cases/                         # حالات الاستخدام العملية
+│   ├── use-case-1-client-research/      # بحث العملاء
+│   ├── use-case-2-content-creation/     # إنشاء المحتوى
+│   └── use-case-3-tbd/                  # قريباً...
+│
+├── 📁 templates/                         # قوالب جاهزة للاستخدام
+├── 📁 scripts/                           # سكريبتات التثبيت
+├── 📁 assets/                            # ملفات مساعدة
+└── 📁 community/                         # مساحة المجتمع
+```
+
+---
+
+## 💼 حالات الاستخدام
+
+### [🔍 Use Case 1: بحث العملاء التلقائي](use-cases/use-case-1-client-research/)
+> عميل سجّل معاك؟ النظام بيبحث عنه وعن شركته، يفهم احتياجه، يجهّز presentation لشرح خدماتك، ويجهّز ملفات لفهم العميل — **كل ده أوتوماتيك!**
+
+**الوقت الموفّر:** 7+ ساعات لكل عميل
+
+### [📰 Use Case 2: صناعة المحتوى](use-cases/use-case-2-content-creation/)
+> موضوع واحد → 12 قطعة محتوى! بحث شامل + presentation on brand + فيديو + بودكاست + إنفوجرافيك — **كل ده من prompt واحد!**
+
+### [🔮 Use Case 3: قريباً...](use-cases/use-case-3-tbd/)
+> حالة استخدام جديدة قادمة — ترقبوا التحديثات!
+
+---
+
+## 📚 المستندات
+
+| المستند | الوصف |
+|---------|-------|
+| [📖 المقدمة](docs/01-introduction.md) | إيه المشروع ده ولمين |
+| [🧠 NotebookLM](docs/02-notebooklm-overview.md) | نبذة عن NotebookLM وقدراته |
+| [🔗 MCP](docs/03-mcp-overview.md) | إيه هو MCP وإزاي بيشتغل |
+| [⚡ AntiGravity](docs/04-agentic-overview.md) | نبذة عن AntiGravity |
+| [🛠️ دليل التثبيت](docs/05-installation-guide.md) | خطوة بخطوة |
+| [🔧 حل المشاكل](docs/06-troubleshooting.md) | المشاكل الشائعة وحلها |
+| [❓ أسئلة شائعة](docs/07-faq.md) | إجابات سريعة |
+
+---
+
+## 🎨 القوالب الجاهزة
+
+- [📝 قالب brain.md فارغ](templates/brain.md) — ابدأ من هنا
+- [📝 مثال brain.md مملوء](templates/brain-example.md) — مثال عملي
+- [⚙️ قالب إعداد MCP](templates/mcp-config-template.json) — إعدادات جاهزة
+- [📋 قالب البحث](templates/research-template.md) — لتوثيق أبحاثك
+
+---
+
+## 🤝 المجتمع
+
+- [📢 كيف تساهم](community/CONTRIBUTING.md)
+- [🏆 قصص نجاح](community/success-stories.md)
+- [⭐ أفضل الممارسات](community/best-practices.md)
+- [💡 طلبات ميزات](community/feature-requests.md)
+
+---
+
+## 📹 مصادر تعليمية
+
+- 🎬 [NotebookLM just became UNSTOPPABLE - Jack Roberts](https://youtu.be/KmXfxcGhJDE)
+- 📺 [قناة ePreneurs على YouTube](https://youtube.com/@ePreneurs)
+
+---
+
+## 📄 الترخيص
+
+هذا المشروع مرخص بموجب [MIT License](LICENSE).
+
+---
+
+## ⭐ ادعمنا
+
+لو الدليل ده ساعدك، اعمل ⭐ Star للمشروع وشاركه مع أصحابك!
+
+---
+
+<div align="center">
+
+**صُنع بـ ❤️ بواسطة [ePreneurs](https://youtube.com/@ePreneurs)**
+
+🧠 NotebookLM + ⚡ AntiGravity + 🔗 MCP = 🚀 Unstoppable
+
+</div>
